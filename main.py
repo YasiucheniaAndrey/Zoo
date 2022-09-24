@@ -1,9 +1,8 @@
-import Zoo
-import Animal
+from zoo import Zoo
+import animal
 import datetime
 
 if __name__ == '__main__':
-    n = 5
-    z = Zoo
-    z.add_pet_too_zoo(Animal.Boar(datetime.now(), "Серенький", "Малыш"))
+    z = Zoo(5)
+    z.add_pet_too_zoo(animal.Boar(datetime.now(), "Серенький", "Малыш"))
 
