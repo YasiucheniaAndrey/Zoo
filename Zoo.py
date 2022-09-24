@@ -13,7 +13,6 @@ class Zoo:
             self.n += 1
         else:
             raise Exception("Переполнен зоопарк")
-
-
+#sadrfsfd
 
 
